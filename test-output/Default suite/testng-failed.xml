@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="driverfactory.Testscripts">
+      <class name="dec5.Usingdatadriver_webdriver">
         <methods>
-          <include name="userCreation"/>
-          <include name="setUp"/>
-          <include name="generatereport"/>
-          <include name="empCreation"/>
-          <include name="tearDown"/>
+          <include name="verifyLogin"/>
         </methods>
-      </class> <!-- driverfactory.Testscripts -->
+      </class> <!-- dec5.Usingdatadriver_webdriver -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

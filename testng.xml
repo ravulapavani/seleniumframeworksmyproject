@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="methods">
-  <test name="Test">
+  <test name="Test1">
     <classes>
       <class name="driverfactory.Pomdatadriven"/>
-      <class name="driverfactory.Testscripts"/>
-      <class name="driverfactory.DriverScript"/>
-      <class name="driverfactory.Datadrivenframework"/>
-      <class name="driverfactory.Datadriven"/>
-    </classes>
+       </classes>
   </test> <!-- Test -->
+  <test name="Test2">
+    <classes>
+    <class name="driverfactory.Testscripts"/>
+        </classes>
+  </test> <!-- Test -->
+  <test name="Test3">
+    <classes>
+      <class name="driverfactory.DriverScript"/>
+     </classes>
+  </test> <!-- Test --> 
+  <test name="Test4">
+    <classes> 
+      <class name="driverfactory.Datadrivenframework"/>
+       </classes>
+  </test> <!-- Test -->
+  <test name="Test5">
+    <classes>
+      <class name="driverfactory.Datadriven"/>
+       </classes>
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
